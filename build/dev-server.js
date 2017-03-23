@@ -63,6 +63,7 @@ module.exports = app.listen(port, function (err) {
     console.log(err)
     return
   }
+  //浏览器自动打开首页
   var uri = 'http://localhost:' + port + '/module/index.html'
   console.log('Listening at ' + uri + '\n')
   opn(uri)
